@@ -38,11 +38,11 @@ steps:
     command: 'restore'
     projects: '**/*.csproj'
 
-- tempalte: 'templates/build.yml'
+- template: 'templates/build.yml'
   parameters: 
     buildConfiguration: 'Debug'
 
-- tempalte: 'templates/build.yml'
+- template: 'templates/build.yml'
   parameters: 
     buildConfiguration: 'Release'
 
